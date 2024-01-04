@@ -174,3 +174,11 @@ img {
 .action-description {
     color: #cacaca;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
