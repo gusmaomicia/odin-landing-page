@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    gap: 15px;
 }
 
 ul {
@@ -48,6 +49,8 @@ ul,
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .header .top,
@@ -64,6 +67,8 @@ ul,
 .description {
     font-size: 18px;
     color: #e5e7eb;
+    width: 600px;
+    flex-shrink: 1;
 }
 
 button {
@@ -100,6 +105,8 @@ img {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 70px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .title {
