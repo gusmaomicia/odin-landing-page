@@ -83,3 +83,42 @@ img {
     margin-bottom: 16px;
     margin-right: 50px;
 }
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 130px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    width: 150px;
+    text-align: center;
+    color: #9c9c9c;
+}
