@@ -122,3 +122,25 @@ img {
     text-align: center;
     color: #9c9c9c;
 }
+
+.body2 {
+    background-color: #e5e7eb;
+    padding: 100px 150px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoteby {
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+}
